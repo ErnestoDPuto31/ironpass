@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏋️‍♂️ IRONPASS SYSTEM
 
-## Getting Started
+A modern, dark-themed self-service gym check-in kiosk and administrative management platform designed for fitness centers.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📸 Screenshots
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Kiosk Interface
+| Home Screen | Daily Session Log | Member Portal |
+| :---: | :---: | :---: |
+| ![Kiosk Home](./screenshots/kiosk-home.png) | ![Log Visit](./screenshots/kiosk-daily.png) | ![Member Access](./screenshots/kiosk-register.png) |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Admin Portal
+| Secure Login | Live Dashboard |
+| :---: | :---: |
+| ![Admin Login](./screenshots/admin-login.png) | ![Dashboard](./screenshots/admin-dashboard.png) |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Member Roster | Financial Reports | Kiosk & Price Settings |
+| :---: | :---: | :---: |
+| ![Members](./screenshots/admin-members.png) | ![Reports](./screenshots/admin-reports.png) | ![Settings](./screenshots/admin-settings.png) |
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📱 Self-Service Kiosk
+* **Dual Access Modes:** Seamless selection between non-member daily walk-ins and active monthly subscriptions.
+* **Rapid Guest Check-In:** Instant name logging with automatic walk-in fee calculation.
+* **Member Access Portal:** Self-serve UI allowing members to sign in, renew plans, or register with a 4-digit PIN and emergency contact details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🛡️ Back-Office Admin Portal
+* **Live Overview Dashboard:** Real-time revenue tracking, active member counts, login counts, and a live check-in activity feed.
+* **Member Directory:** Filterable roster tracking active/expiring statuses, joining dates, renewal timelines, and account credentials.
+* **Financial Auditing & Analytics:** Interactive revenue graphs, daily traffic charts, and an exportable ledger log for transaction history.
+* **System Customization:** Controls to modify operating hours, default headlines, membership/walk-in pricing, admin credentials, and dynamic UI theme colors.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Frontend:** React / Modern Web Components, CSS3 (Dark Theme UI)
+* **Icons:** Custom SVG Icon Set / Lucide Icons
+* **Data Layer:** Local Storage / REST API Integration
+
+---
+
+## 🚀 Quick Start Guide
+
+### Prerequisites
+* [Node.js](https://nodejs.org/) (v16.x or higher)
+* `npm` or `yarn`
+
+### Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/ironpass-system.git](https://github.com/your-username/ironpass-system.git)
+   cd ironpass-system
+2. **Install dependencies**
+  npm run install
+3. **Launch local server**
+   npm run dev
