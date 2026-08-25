@@ -21,6 +21,7 @@ A modern, dark-themed self-service gym check-in kiosk and administrative managem
 | ![Reports & Audit Trail](./screenshots/Screenshot%20(919).png) | ![Settings & Customization](./screenshots/Screenshot%20(920).png) |
 
 ---
+More Details in ./screenshots/
 
 ## ✨ Key Features
 
